@@ -1961,7 +1961,7 @@ var BScroll = /** @class */ (function (_super) {
         this.scroller = new Scroller(wrapper, this.options);
         this.eventBubbling();
         this.handleAutoBlur();
-        this.innerRefresh();a
+        this.innerRefresh();
         this.scroller.scrollTo(this.options.startX, this.options.startY);
         this.enable();
         this.proxy(propertiesConfig);
